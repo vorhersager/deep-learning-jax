@@ -71,9 +71,9 @@ These tutorials are not just academic exercises; they are forged to be starting 
 **Tutorial 11: Model Explainability**
 
 * **What it teaches:** This advanced tutorial delves into the mechanics of model interpretability and the "Clever Hans" phenomenon in AI—where a model learns a dataset's spurious correlations rather than true underlying concepts. Using JAX and Equinox, you will intentionally "poison" the CIFAR-10 dataset by adding an "AI" watermark to dogs, training a CNN to learn this shortcut. You will then act as an AI forensic investigator, utilizing four primary Explainable AI (XAI) lenses to catch the model cheating:  
-* **Integrated Gradients (IG):** A gradient-based path integration method.  
-* **Layer-wise Relevance Propagation (LRP):** A mechanistic backward score redistribution.  
-* **LIME:** A model-agnostic behavioral probe using local surrogates.  
-* **KernelSHAP:** A game-theoretic pixel attribution method.  
+  > **Integrated Gradients (IG):** A gradient-based path integration method.  
+  > **Layer-wise Relevance Propagation (LRP):** A mechanistic backward score redistribution.  
+  > **LIME:** A model-agnostic behavioral probe using local surrogates.  
+  > **KernelSHAP:** A game-theoretic pixel attribution method.  
 * **Real-World Application:** Extremely critical for AI safety, compliance, and debugging in high-stakes fields like healthcare, finance, or legal tech. It teaches engineers how to audit "black box" models, prove whether a system is making decisions based on legitimate biological/financial features or biased shortcuts (like watermarks, background artifacts, or protected attributes), and build trust with stakeholders before deployment.
 

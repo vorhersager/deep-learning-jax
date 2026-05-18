@@ -2,7 +2,9 @@
 
 ---
 
-# **Accelerated Architectures: Building Diffusion, Transformers, Language Models, and RL in JAX**
+<p align="center">
+  <img src="assets/banner-deep-learning-jax.png" alt="Accelerated Architectures Cover Art" width="100%">
+</p>
 
 ### **Foreword**
 

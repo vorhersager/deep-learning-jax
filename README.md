@@ -68,7 +68,7 @@ These tutorials are not just academic exercises; they are forged to be starting 
 * **What it teaches:** The complete modern LLM lifecycle. Moving beyond the toy transformer, it implements Grouped-Query Attention (GQA) and walks through Unsupervised Pre-Training, Supervised Fine-Tuning (SFT), LoRA (Parameter-Efficient Fine-Tuning), RLHF, and distributed training via JAX pjit and FSDP.  
 * **Real-World Application:** Provides the blueprint for enterprise teams needing to securely fine-tune domain-specific LLMs on proprietary data without relying on external, closed-source APIs.
 
-### **Tutorial 11: Model Explainability**
+**Tutorial 11: Model Explainability**
 
 * **What it teaches:** This advanced tutorial delves into the mechanics of model interpretability and the "Clever Hans" phenomenon in AI—where a model learns a dataset's spurious correlations rather than true underlying concepts. Using JAX and Equinox, you will intentionally "poison" the CIFAR-10 dataset by adding an "AI" watermark to dogs, training a CNN to learn this shortcut. You will then act as an AI forensic investigator, utilizing four primary Explainable AI (XAI) lenses to catch the model cheating:  
 * **Integrated Gradients (IG):** A gradient-based path integration method.  

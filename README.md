@@ -14,6 +14,8 @@ The curriculum follows a deliberate evolution. It begins at the absolute bedrock
 
 These tutorials are not just academic exercises; they are forged to be starting points. Whether you are building a custom optimizer, fine-tuning a domain-specific large language model, or designing a reinforcement learning environment, these reference implementations are meant to be adapted, scaled, and deployed to solve complex, real-world engineering problems.
 
+John Sipple
+
 ---
 
 ### **Tutorial Summaries**
